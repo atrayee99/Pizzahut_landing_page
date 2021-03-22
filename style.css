@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow:hidden;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background: linear-gradient(to right,rgb(219, 18, 169), rgb(219,58,18));
+}
+.main{
+    position:relative;
+    width:100%;
+    height:80vh;
+    background:url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+.logo{
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+@media screen and (max-width:600px){
+    .logo{
+        top:10px;
+    }
+}
+.logo img{
+    width:90px;
+    height:90px;
+}
+@media screen and (max-width:600px){
+    .logo img{
+        width:40px;
+        height:40px
+    }
+}
+ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+li{
+    margin-top:10px;
+    padding:22px;
+}
+@media screen and (max-width:600px){
+    li{
+        padding:10px;
+    }
+}
+li a{
+    text-decoration: none;
+    color: #ffff;
+    text-shadow: 5px 4px 2px rgb(143, 46, 46);
+    font-size: 25px;
+    font-style: italic;
+}
+@media screen and (max-width:600px){
+    li a{
+        font-size:15px;
+    }
+}
+ul li a:hover{
+ color: rgb(175, 120, 120);
+}
+.pics{
+    position: absolute;
+    right:40px;
+    top:110px;
+    min-height:200px;
+    max-width:110px;
+    border:1px solid rgba(102, 96, 96, 0.5);
+    background-color:rgba(102, 96, 96, 0.5);
+    border-radius:15px;
+    padding:10px;
+}
+@media screen and (max-width:600px){
+    .pics{
+    top: 150px;
+    max-width:70px;
+    right: 10px;
+    padding:2px;
+    }
+}
+.pics img{
+    width:90px;
+    height:90px;
+}
+@media screen and (max-width:600px){
+    .pics img{
+        width:60px;
+        height:60px;
+    }
+}
+.pics img:hover{
+    width:100px;
+    height:100px;
+}
+.tagline h1{
+    position: absolute;
+    font-family: 'Chango', cursive;
+    color:#ffff;
+    margin-top: 100px;
+    margin-left:170px;
+    font-size: 120px;
+    font-style: italic;
+    text-shadow: 4px 4px 4px rgb(124, 65, 65);
+
+}
+@media screen and (max-width:600px){
+    .tagline h1{
+        margin-top: 150px;
+        margin-left:30px;
+        font-size: 50px;
+    }
+}
+.tagline p{
+    position: absolute;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 400px;
+    margin-left:170px;
+    color:#ffff;
+    font-size:25px;
+    text-shadow: 4px 4px 3px black;
+    font-style: italic;
+}
+@media screen and (max-width:600px){
+    .tagline p{
+        margin-left: 30px;
+        font-size: 15px;
+        margin-top:280px;
+    }
+}
+.icon{
+    position: absolute;
+    bottom:30px;
+    left:40px;
+    color: #ffff;
+}
+@media screen and (max-width:600px){
+    .icon{
+    left:30px;
+    bottom: 40px;
+}
+}
+.fa{
+    font-size: 45px;
+    padding-right: 14px;   
+}
+@media screen and (max-width:600px){
+    .fa{
+    font-size: 30px;
+    padding-right: 10px;
+    }
+}
+.anim{
+    position: absolute;
+    height:30px;
+    width:100%;
+    bottom:100px;
+    border: 2px solid rgba(141, 132, 125, 0.795);
+    background-color: rgba(141, 132, 125, 0.795);
+
+}
+@media screen and (max-width:600px){
+    .anim{
+    height: 26px;
+    }
+}
+.anim h3{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #ffff;
+    font-style: italic;
+    text-shadow: 4px 4px 2px black;
+}
+@media screen and (max-width:600px){
+    .anim h3{
+        font-size: 14px;
+    }
+}
